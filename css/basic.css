@@ -604,7 +604,7 @@ header nav ul li a:hover span {
   text-align: left;
   background: rgba(245, 95, 141, 0.1);
   border-radius: 8px;
-  margin-right: 20px;
+  /* margin-right: 20px; */
 }
 /* .blog .blog__item:nth-child(2){
   margin: 0 10px;
@@ -695,6 +695,7 @@ footer::before {
   left: 0;
   width: 100%;
   height: 100%;
+  /* position: relative; */
 }
 
 footer .top {
