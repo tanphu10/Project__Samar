@@ -427,8 +427,8 @@ header nav ul li a:hover span {
   opacity: 0;
 }
 .features .features__left .content__items:hover,
-.features .features__left .content__items i:hover {
-  color: #fff;
+.features .features__left .content__items:hover i {
+  color: #fff !important;
 }
 .features .features__left .content__items:hover::after {
   opacity: 1;
@@ -684,6 +684,9 @@ footer {
   font-size: 15px;
   position: relative;
 }
+footer .container{
+  position: relative;
+}
 footer::before {
   content: "";
   background-image: url(../img/pattern2.png);
@@ -695,7 +698,6 @@ footer::before {
   left: 0;
   width: 100%;
   height: 100%;
-  /* position: relative; */
 }
 
 footer .top {
