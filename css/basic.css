@@ -851,6 +851,12 @@ footer .bottom__reserved .bottom__reserved__items {
   justify-content: space-evenly;
   padding-right: 80px;
 }
+footer .container-fluid{
+  position: relative;  
+}
+footer .bottom__reserved .bottom__reserved__items .item a{
+  color: white;
+}
 footer .bottom__reserved .bottom__reserved__items .item {
   background-color: rgba(255, 255, 255, 0.1);
   width: 30px;
@@ -859,7 +865,22 @@ footer .bottom__reserved .bottom__reserved__items .item {
   border-radius: 50%;
   text-align: center;
   margin-right: 10px;
+  color: white;
+  transition: all 0.4s;
 }
+
+
+footer .bottom__reserved .bottom__reserved__items .item:hover{
+  background-color: #f55f8d;
+}
+
+
+
+
+
+
+
+
 
 /* css back_top  */
 
